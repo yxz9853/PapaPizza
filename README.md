@@ -3,7 +3,6 @@
 
 ## Modules
 - PyQt5
+- Pillow
   - 'pip install PyQt5'
- 
--  Pillow
   - 'pip install Pillow'
