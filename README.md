@@ -6,3 +6,6 @@
 - Pillow
   - 'pip install PyQt5'
   - 'pip install Pillow'
+
+### To run
+python main.py or run main.py with a python interpreter
