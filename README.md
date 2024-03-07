@@ -8,4 +8,4 @@
   - 'pip install Pillow'
 
 ### To run
-python main.py or run main.py with a python interpreter
+'python main.py' or run main.py with a python interpreter
