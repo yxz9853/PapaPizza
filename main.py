@@ -462,6 +462,9 @@ class AdminProgram(QDialog): # Admin program
                 if setname.isspace():
                     setname = ""
                     QMessageBox.warning(self, "Error", "Do not use space as a name")
+                elif len(setname) > 18:
+                    setname = ""
+                    QMessageBox.warning(self, "Error", "18 characters max")
                 for items in self.itemlist:
                     if setname.lower() == items[1].lower() and defaultname != items[1]:
                         setname = ""
